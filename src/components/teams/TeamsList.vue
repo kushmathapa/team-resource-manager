@@ -1,4 +1,5 @@
 <template>
+  <RouterView></RouterView>
   <ul>
     <teams-item
       v-for="team in teams"
